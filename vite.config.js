@@ -10,5 +10,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/mohdraid1990/' : '/',  
+  base: process.env.NODE_ENV === 'production' ? '/Softline-vueJS/' : '/',
 })
