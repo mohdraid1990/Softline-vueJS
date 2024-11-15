@@ -67,8 +67,7 @@ import mobile from "../assets/MOBILE.svg";
 import fitnes from "../assets/FITNES.svg";
 import hands from "../assets/HANDS.svg";
 import saves from "@/assets/SAVES.svg";
-
-import ipateka from "../assets/icon.svg";
+import ipateka from "@/assets/icon.svg";
 
 export default {
   data() {
@@ -343,13 +342,12 @@ export default {
     }
   }
 }
-  @media (max-width: 400px) {
-.service h1{
-  
+@media (max-width: 400px) {
+  .service h1 {
     font-size: 40px;
   }
-      .service .package h1{
-        font-size: 30px !important;
-    }
+  .service .package h1 {
+    font-size: 30px !important;
   }
+}
 </style>
