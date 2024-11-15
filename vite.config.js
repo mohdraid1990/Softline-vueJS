@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
+      '@assets': fileURLToPath(new URL('./src/assets', import.meta.url)), // إضافة alias مخصص للمجلد assets
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/Softline-vueJS/' : '/',
 })
