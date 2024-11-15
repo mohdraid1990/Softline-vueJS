@@ -66,8 +66,9 @@ import topt from "../assets/TOPT.svg";
 import mobile from "../assets/MOBILE.svg";
 import fitnes from "../assets/FITNES.svg";
 import hands from "../assets/HANDS.svg";
-import saves from "@/assets/SAVES.svg";
-import ipateka from "@/assets/icon.svg";
+// تعديل المسار إلى مسار نسبي
+import saves from "../assets/SAVES.svg";
+import ipateka from "../assets/icon.svg";
 
 export default {
   data() {
